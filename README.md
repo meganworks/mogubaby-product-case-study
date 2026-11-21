@@ -2,21 +2,26 @@
 
 **English** | [日本語](./README.ja.md)
 
-### A simpler path from packaged baby-food logging to ingredient history and childcare preparation
+### Remember what was served, learn from past meals, and make the next feeding decision easier
 
 **Customer discovery · Product strategy · Requirements · AI-assisted delivery · Quality management**
 
 [View Mogubaby on the App Store](https://apps.apple.com/jp/app/id6823474417)
 
-## The opportunity: what remains difficult after checking off an ingredient?
+## The opportunity: there is more to feeding than checking off ingredients
 
-Existing baby-food apps can help caregivers mark which ingredients have been tried. But packaged baby foods add a practical step: identifying the ingredients in a product and recording **which of those ingredients were actually eaten**. Later, a caregiver may need to check when a particular ingredient was last recorded or review food exposures requested by a childcare provider.
+Established baby-food apps, such as Step Rinyushoku in Japan, are useful for tracking ingredient introductions and feeding progression. However, an interface centered on ingredient checklists can be a poor fit for caregivers who need to record and revisit everyday feeding experiences in more detail.
 
-**What if logging a packaged meal could also make ingredient history useful for the next decision?**
+- Recreate a meal that a baby particularly enjoyed.
+- Recall which texture or consistency was easier to eat.
+- Review food consumed and how the baby was feeling on a day when symptoms appeared.
+- Find ingredients that have not been eaten recently when considering the next meal.
 
-Mogubaby lets caregivers look up packaged baby food by product name, review its ingredients, and record those actually consumed. The resulting history supports last-recorded-intake dates, elapsed-day views and childcare food checks.
+These tasks call for more than an ingredient checklist. Caregivers need an intuitive way to record and retrieve information by date and meal, including context that may matter for future decisions.
 
-Established apps also offer ingredient tracking and packaged-food logging. The focus here was not to claim an entirely new feature category, but to connect **product-level logging, ingredient-level history and follow-up tasks** into a coherent daily workflow.
+**From checking off foods to learning from everyday feeding experiences.**
+
+Mogubaby was conceived around that need, with an emphasis on ease of recording and retrieval. It combines ingredient logging, packaged baby-food lookup, a diary and calendar, and ingredient history to support both meal reflection and food tracking.
 
 ## Product at a glance
 
@@ -25,7 +30,7 @@ Established apps also offer ingredient tracking and packaged-food logging. The f
 | **Product** | Baby-food and ingredient-tracking app for caregivers |
 | **Platform** | iOS, available on the App Store |
 | **Core experience** | Record foods and ingredients, review food history, see last recorded intake and elapsed days, sort ingredients, and check childcare-preparation records |
-| **Additional experience** | Capture feeding milestones and memories |
+| **Additional experience** | Diary and calendar, feeding milestones and memories |
 | **My contribution** | Problem framing, product direction, requirements, UX and scope decisions, quality acceptance, release approval |
 | **Delivery approach** | Claude Code for implementation, ChatGPT/Codex for separate review, GitHub Issues for requirement and decision tracking |
 
@@ -33,7 +38,7 @@ Established apps also offer ingredient tracking and packaged-food logging. The f
 
 ### 01. Customer discovery → Product direction
 
-A recurring challenge is not simply recording food, but **making that record useful afterward**. Early feedback reinforced the need to see when an ingredient was last eaten. I translated that need into a focused set of features: last recorded intake, elapsed days and sorting—rather than adding a complex meal planner.
+I focused on the gap between ingredient-centered tracking and meal-centered reflection, treating ease of recording and information retrieval as design priorities. Early feedback then reinforced the need for last-recorded intake dates, elapsed days and sorting, which became a focused feature enhancement.
 
 [Explore product discovery →](./docs/en/product-discovery.md)
 
@@ -93,7 +98,5 @@ Version **1.0.1**, including improvements to food-history visibility and App Sto
 | [Quality management](./docs/en/quality-management.md) | Independent review, edge cases and correction |
 
 ---
-
-**My approach:** *Understand the problem first. Define the value. Use technology—including AI—to deliver the simplest useful solution.*
 
 This repository contains a public account of product decisions and delivery practices, not the private application source code or private user information.
