@@ -1,88 +1,99 @@
-# Mogubaby | AI-Assisted Product Ownership & Delivery Governance
+# Mogubaby | From Parenting Needs to a Shipped Product
 
 **English** | [日本語](./README.ja.md)
 
-### From a common parenting challenge to a shipped product — with human-led decisions and complementary AI agents
+### Start with the problem. Build only what helps solve it.
 
-**Customer insight · Requirements management · Product strategy · Independent review · Release governance**
+**Customer discovery · Product strategy · Requirements · AI-assisted delivery · Quality management**
 
 [View Mogubaby on the App Store](https://apps.apple.com/jp/app/id6823474417)
 
-## The opportunity
+## The opportunity: make everyday feeding decisions easier
 
-Introducing solid foods creates a recurring information-management challenge for caregivers. They need to remember which ingredients a baby has tried, identify what was eaten recently, record ingredients in packaged baby foods, and sometimes prepare food-exposure information requested by childcare providers. These small tasks accumulate during already busy routines.
+Starting solid foods creates more work than preparing meals. Caregivers need to keep track of ingredients a baby has tried, recall when each food was last offered, and sometimes check food-exposure records for childcare enrollment. With notes, photos, product labels and daily routines scattered across different places, even answering **“When did we last have this?”** can take effort.
 
-**What if a food log could support the next practical decision—not just preserve a record?**
+**What if recording a meal also made the next meal easier to plan?**
 
-Mogubaby is an independently launched Japanese-language baby-food tracking application. It helps caregivers record foods, review ingredient history, check relevant childcare-preparation information, and preserve everyday milestones.
+That question became **Mogubaby**, a baby-food tracking app for caregivers. It brings ingredient logging, packaged baby-food lookup, food history and childcare-preparation checks into a practical everyday experience.
 
-This portfolio describes the **product and delivery decisions**, not the private production source code.
+**The objective was not to develop an app for its own sake. It was to reduce a recurring burden for caregivers—and use software and AI as the means to deliver that value.**
 
 ## Product at a glance
 
 | | |
 | --- | --- |
-| **Product** | Baby-food and ingredient-tracking app |
-| **Platform** | iOS; published on the App Store |
-| **Example capabilities** | Ingredient logging, packaged-food lookup, food history, last recorded intake and elapsed days, food-list sorting, childcare-preparation tracking, milestones |
-| **My role** | Independent product owner: problem framing, requirements, UX and positioning decisions, acceptance and release authorization |
-| **Delivery model** | Claude Code for implementation; ChatGPT/Codex for a separate review perspective; GitHub Issues for requirements and decision history |
-| **Documented release** | Version 1.0.1, published in October 2026 |
+| **Product** | Baby-food and ingredient-tracking app for caregivers |
+| **Platform** | iOS, available on the App Store |
+| **Core experience** | Record foods and ingredients, review food history, see last recorded intake and elapsed days, sort ingredients, and check childcare-preparation records |
+| **Additional experience** | Capture feeding milestones and memories |
+| **My contribution** | Problem framing, product direction, requirements, UX and scope decisions, quality acceptance, release approval |
+| **Delivery approach** | Claude Code for implementation, ChatGPT/Codex for separate review, GitHub Issues for requirement and decision tracking |
 
-## Four cases demonstrating product ownership
+## What this project demonstrates
 
-### 01. Customer insight → Prioritized requirements
+### 01. Customer discovery → Product direction
 
-Early feedback highlighted a common frustration: caregivers could log foods but still struggled to remember **when an ingredient had last been eaten**. I translated that into a focused change: last-recorded intake, elapsed days, and sorting—not a broad meal-planning or clinical advice feature.
+A recurring challenge is not simply recording food, but **making that record useful afterward**. Early feedback reinforced the need to see when an ingredient was last eaten. I translated that need into a focused set of features: last recorded intake, elapsed days and sorting—rather than adding a complex meal planner.
 
-[Product discovery and requirements →](./docs/en/product-discovery.md)
+[Explore product discovery →](./docs/en/product-discovery.md)
 
-### 02. A single source of truth → Delivery alignment
+### 02. Product leadership → Clearer everyday value
 
-GitHub Issues held current scope, acceptance expectations, constraints, decisions and review follow-ups. As new feedback emerged, the product priorities were explicitly revised rather than silently expanding the feature set.
+The initial App Store story emphasized childcare preparation. Feedback revealed a broader, more frequent use case: everyday food choices. I reorganized the product message around **easy logging → useful food history → childcare preparation**, while preserving the value of milestone sharing.
 
-[Requirements and delivery model →](./docs/en/delivery-governance.md)
+[Explore product positioning →](./docs/en/product-and-launch.md)
 
-### 03. Independent AI review → Corrective action
+### 03. AI orchestration → Accountable execution
 
-Separating implementation and review proved useful. A review identified a subtle data-semantic risk: an imported **first-ever consumption date** must not automatically be treated as the **most recent confirmed intake**. The resulting fix and regression checks preserved that distinction.
+I led scope and product decisions while Claude Code supported implementation and ChatGPT/Codex provided a separate review perspective. GitHub Issues connected the current requirements, decisions, review findings and changes.
 
-[Quality management case study →](./docs/en/quality-management.md)
+[Explore the delivery model →](./docs/en/delivery-governance.md)
 
-### 04. Product positioning → Coordinated release
+### 04. Quality management → A more trustworthy product
 
-Feedback also reshaped the product story for the App Store: **make logging easy → make food history useful for daily decisions → support childcare preparation**. Revised store assets and the food-history enhancement were coordinated into the 1.0.1 release.
+Independent review caught an important distinction: an imported **first-ever consumption date** is not necessarily the **latest confirmed intake date**. That finding prompted a targeted implementation correction and additional regression coverage before release.
 
-[Product positioning and release →](./docs/en/product-and-launch.md)
+[Explore the quality case study →](./docs/en/quality-management.md)
 
-## Human-led AI delivery
+## From insight to release
 
 ```text
-Common caregiver need / initial product hypothesis
-                    ↓
-Problem framing, scope and priorities [Human product owner]
-                    ↓
-Requirements and decision history [GitHub Issues]
-                    ↓
-Implementation and checks [Claude Code]
-                    ↓
-Separate code / design review [ChatGPT / Codex]
-                    ↓
-Targeted remediation and regression checks [Claude Code]
-                    ↓
-UX acceptance and release authorization [Human product owner]
-                    ↓
-App Store submission and publication
+Everyday caregiver problem
+            ↓
+Define the outcome that matters [Human]
+            ↓
+Prioritize a focused product response [Human]
+            ↓
+Document requirements and decisions [GitHub Issues]
+            ↓
+Implement and validate changes [Claude Code]
+            ↓
+Review independently and correct issues [ChatGPT/Codex + Claude Code]
+            ↓
+Accept the experience and authorize release [Human]
+            ↓
+App Store publication
 ```
 
-This is a description of a documented working pattern—not a claim that AI was fully autonomous or that all testing was independently executed.
+Version **1.0.1**, including improvements to food-history visibility and App Store presentation, was published in October 2026. This is a product-and-delivery case study, not a claim of measured nutrition, conversion or retention improvements.
 
-## What the project demonstrates
+## Tools and methods
 
-**Customer-to-requirement translation · Scope control · Traceability · Cross-model review · Edge-case analysis · Product positioning · Human-in-the-loop release decisions**
+**Product:** Customer insight, requirements translation, prioritization, UX decisions, product positioning  
+**Delivery:** GitHub Issues, AI-assisted implementation, independent review, regression checks, release approval  
+**AI:** Claude Code, ChatGPT/Codex
 
-**Evidence boundary:** The detailed development repository is private. This public case study uses only generalized product problems, independently authored summaries, and publicly available app information. It intentionally excludes personal/family details, verbatim private feedback, production source code, credentials, and private development links. The test results discussed in the case studies apply to specific release-candidate workflows, not a blanket guarantee of product quality.
+## Case studies
+
+| Detailed case | Focus |
+| --- | --- |
+| [Product discovery & requirements](./docs/en/product-discovery.md) | Turn a caregiver problem into a focused capability |
+| [Product positioning & launch](./docs/en/product-and-launch.md) | Communicate the value and coordinate release |
+| [AI-assisted delivery governance](./docs/en/delivery-governance.md) | Human accountability and requirements traceability |
+| [Quality management](./docs/en/quality-management.md) | Independent review, edge cases and correction |
 
 ---
 
-[日本語版を読む](./README.ja.md) · [App Store](https://apps.apple.com/jp/app/id6823474417)
+**My approach:** *Understand the problem first. Define the value. Use technology—including AI—to deliver the simplest useful solution.*
+
+This repository contains a public account of product decisions and delivery practices, not the private application source code or private user information.
