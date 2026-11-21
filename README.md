@@ -8,9 +8,9 @@
 
 [View Mogubaby on the App Store](https://apps.apple.com/jp/app/id6823474417)
 
-## The opportunity: there is more to feeding than checking off ingredients
+## The opportunity: from ingredient tracking to meal management
 
-Established baby-food apps, such as Step Rinyushoku in Japan, are useful for tracking ingredient introductions and feeding progression. However, an interface centered on ingredient checklists can be a poor fit for caregivers who need to record and revisit everyday feeding experiences in more detail.
+Existing baby-food apps are useful for tracking ingredient introductions and feeding progression. However, an interface centered on ingredient checklists can be a poor fit for caregivers who need to record and revisit everyday feeding experiences in more detail.
 
 - Recreate a meal that a baby particularly enjoyed.
 - Recall which texture or consistency was easier to eat.
@@ -19,7 +19,7 @@ Established baby-food apps, such as Step Rinyushoku in Japan, are useful for tra
 
 These tasks call for more than an ingredient checklist. Caregivers need an intuitive way to record and retrieve information by date and meal, including context that may matter for future decisions.
 
-**From checking off foods to learning from everyday feeding experiences.**
+**From ingredient tracking to meal management.**
 
 Mogubaby was conceived around that need, with an emphasis on ease of recording and retrieval. It combines ingredient logging, packaged baby-food lookup, a diary and calendar, and ingredient history to support both meal reflection and food tracking.
 
