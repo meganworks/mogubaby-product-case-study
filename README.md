@@ -1,22 +1,22 @@
-# Mogubaby | From Parenting Needs to a Shipped Product
+# Mogubaby | From Food Logs to Everyday Feeding Decisions
 
 **English** | [日本語](./README.ja.md)
 
-### Start with the problem. Build only what helps solve it.
+### A simpler path from packaged baby-food logging to ingredient history and childcare preparation
 
 **Customer discovery · Product strategy · Requirements · AI-assisted delivery · Quality management**
 
 [View Mogubaby on the App Store](https://apps.apple.com/jp/app/id6823474417)
 
-## The opportunity: make everyday feeding decisions easier
+## The opportunity: what remains difficult after checking off an ingredient?
 
-Starting solid foods creates more work than preparing meals. Caregivers need to keep track of ingredients a baby has tried, recall when each food was last offered, and sometimes check food-exposure records for childcare enrollment. With notes, photos, product labels and daily routines scattered across different places, even answering **“When did we last have this?”** can take effort.
+Existing baby-food apps can help caregivers mark which ingredients have been tried. But packaged baby foods add a practical step: identifying the ingredients in a product and recording **which of those ingredients were actually eaten**. Later, a caregiver may need to check when a particular ingredient was last recorded or review food exposures requested by a childcare provider.
 
-**What if recording a meal also made the next meal easier to plan?**
+**What if logging a packaged meal could also make ingredient history useful for the next decision?**
 
-That question became **Mogubaby**, a baby-food tracking app for caregivers. It brings ingredient logging, packaged baby-food lookup, food history and childcare-preparation checks into a practical everyday experience.
+Mogubaby lets caregivers look up packaged baby food by product name, review its ingredients, and record those actually consumed. The resulting history supports last-recorded-intake dates, elapsed-day views and childcare food checks.
 
-**The objective was not to develop an app for its own sake. It was to reduce a recurring burden for caregivers—and use software and AI as the means to deliver that value.**
+Established apps also offer ingredient tracking and packaged-food logging. The focus here was not to claim an entirely new feature category, but to connect **product-level logging, ingredient-level history and follow-up tasks** into a coherent daily workflow.
 
 ## Product at a glance
 
